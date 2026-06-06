@@ -1,0 +1,10 @@
+TRAFFIC SIGN CLASSIFICATION (PCA + SVM) RESULTS REPORT
+======================================================
+Selected classes: 10 types of GTSRB signs
+Model: Standardized -> PCA (95% var, k=351) -> SVM (RBF kernel)
+
+Accuracy:          97.80%
+Macro F1-Score:    97.79%
+Weighted F1-Score: 97.79%
+Average Latency:   1.865 ms
+Throughput:        536.13 FPS
